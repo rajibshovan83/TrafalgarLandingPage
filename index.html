@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Trafalgar Landing Page (Community)</title>
+    
+    <!-- Google Fonts: Mulish
+    https://fonts.gstatic.com
+    https://fonts.googleapis.com/css2?family=Mulish:wght@300;400;600;700;800&display=swap
+    -->
+    <link rel="stylesheet" href = "https://fonts.googleapis.com/css2?family=Mulish:wght@300;400;600;700;800&display=swap">
+    <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+    <!-- ===== Header / Nav ===== -->
+    <header class="site-header" id="top">
+        <div class="container header-container">
+            <img src="assets/logo/navbar-logo.png" alt="Trafalgar Logo">
+            <button class="nav-toggle" aria-expanded="false" aria-controls="primary-nav" aria-label="Toggle menu">
+                <span class="nav-toggle__bar"></span>
+                <span class="nav-toggle__bar"></span>
+                <span class="nav-toggle__bar"></span>
+            </button>
+            <nav class="primary-nav" id="primary-nav" area-label="Primary Navigation">
+                <ul class="nav-list">
+                    <li><a href="#hero-section">Home</a></li>
+                    <li><a href="#services-section">Find a doctor</a></li>
+                    <li><a href="#about-section">Apps</a></li>
+                    <li><a href="#testimonials-section">Testimonials</a></li>
+                    <li><a href="#footer-section">About us</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    
+    <main id="main-content">
+        <!-- ===== Hero Section ===== -->
+        <section id ="hero" class="section hero">
+            <div class="container grid grid--2cols hero__grid">
+                <div class="hero__content">
+                    <h1 class="hero__title">Virtual healthcare for you</h1>
+                    <p class="hero__text">
+                    Trafalgar provides progressive, and affordable healthcare, accessible on mobile and online for everyone.
+                    </p>
+                    <!-- #servicesConsult today</a> -->
+                </div>
+                <div class="hero__media">
+                    <img src="assets/images/banner-img.png" alt="Hero Image">
+                </div>
+            </div>
+        </section>
+
+        <!-- ===== Services Section ===== -->
+        <section id="services" class="section services">
+            <div class="container">
+                <header class="section-header">
+                    <h2 class="section-title">Our Services</h2>
+                    <span class="section-underline" aria-hidden="true"></span>
+                    <p class="section-subtitle">
+                        We provide to you the best choiches for you. Adjust it to your health needs and make sure your undergo treatment with our highly qualified doctors you can consult online.
+                    </p>
+                </header>
+            
+                <div class="grid grid--3cols services__grid">
+                    <!-- Card 1 -->
+                    <article class="card service-card">
+                        <img class="service-card__icon" src="assets/icons/icon-1.png" alt="Search doctor"/>
+                        <h3 class="card__title">Search doctor</h3>
+                        <p class="card__text">Choose your doctor from thousands of specialists, generalists, and trusted hospitals.</p>
+                    </article>
+
+                    <!-- Card 2 -->
+                    <article class="card service-card">
+                        <img class="service-card__icon" src="assets/icons/icon-2.png" alt="Online pharmacy"/>
+                        <h3 class="card__title">Online pharmacy</h3>
+                        <p class="card__text">Buy your medicines with our mobile application with a simple delivery system.</p>
+                    </article>
+
+                    <!-- Card 3 -->
+                    <article class="card service-card">
+                        <img class="service-card__icon" src="assets/icons/icon-3.png" alt="Consultation"/>
+                        <h3 class="card__title">Consultation</h3>
+                        <p class="card__text">Free consultation with our trusted doctors and get the best recommendations.</p>
+                    </article>
+
+                    <!-- Card 4 -->
+                    <article class="card service-card">
+                        <img class="service-card__icon" src="assets/icons/icon-4.png" alt="Details info"/>
+                        <h3 class="card__title">Details info</h3>
+                        <p class="card__text">Free access to our details information on medical health for you.</p>
+                    </article>
+            
+                    <!-- Card 5 -->
+                    <article class="card service-card">
+                        <img class="service-card__icon" src="assets/icons/icon-5.png" alt="Emergency care"/>
+                        <h3 class="card__title">Emergency care</h3>
+                        <p class="card__text">You can get 24/7 urgent care for yourself or your children and your lovely family.</p>
+                    </article>
+
+                    <!-- Card 6 -->
+                    <article class="card service-card">
+                        <img class="service-card__icon" src="assets/icons/icon-6.png" alt="Tracking"/>    
+                        <h3 class="card__title">Tracking</h3>
+                        <p class="card__text">Track and save your medical history and health data.</p>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- ===== About Section 1 ===== -->
+        <section id="about" class="section about">
+            <div class="container grid grid--2cols about__grid">
+                <div class="about__media">
+                    <img src="assets/images/leading-healthcare-providers.png" alt="about__media"/>
+                </div>
+                <div class="about__content">
+                    <h2 class="section-title">Leading healthcare providers</h2>
+                    <span class="section-underline" aria-hidden="true"></span>
+                    <p class="section-subtitle">
+                        Trafalgar provides progressive, and affordable healthcare, accessible on mobile and online for everyone. To us, it’s not just work. We take pride in the solutions we deliver.
+                    </p>
+                    #Learn more</a>
+                </div>
+            </div>
+        </section>
+        
+        <!-- ===== About Section 2 (Apps) ===== -->
+        <section class="section about about--reverse">
+            <div class="container grid grid--2cols about__grid">
+                <div class="about__content">
+                    <h2 class="section-title">Download our mobile apps</h2>
+                    <span class="section-underline" aria-hidden="true"></span>
+                    <p class="section-subtitle">
+                        Our dedicated patient engagement app and web portal allow you to access information instantaneously (no tedious form, long calls, or administrative hassle) and securely.
+                    </p>
+                    <a class="btn btn--outline">  
+                        <svg class="icon inline ml-8" width="18" height="18" viewBox="0 0 24 24" aria-hidden="true">
+                            <path fill="currentColor" d="M13 5l7 7-7 7v-4H4v-6h9V5z"/>
+                        </svg>
+                    </a>
+                </div>
+                <div class="about__media">
+                    <img src="assets/images/download-apps-img.png" alt="about__media"/>
+                </div>
+            </div>
+        </section>
+        
+        <!-- ===== Testimonials ===== -->
+        <section id="testimonials" class="section testimonials">
+            <div class="container">
+                <div class="testimonial__shell">
+                    <header class="section-header section-header--light">
+                        <h2 class="section-title section-title--light">What our customers are saying</h2>
+                        <span class="section-underline section-underline--light" aria-hidden="true"></span>
+                    </header>
+                    
+                    <div class="testimonial__viewport" aria-live="polite">
+                        <div class="testimonial__track">
+                            <!-- Slide 1 -->
+                            <figure class="testimonial__slide" aria-roledescription="slide" aria-label="1 of 4">
+                                <blockquote class="testimonial__quote">
+                                    “Our dedicated patient engagement app and web portal allow you to access information instantaneously (no tedeous form, long calls, or administrative hassle) and securely”
+                                </blockquote>
+                                <figcaption class="testimonial__author">
+                                    <img class="avatar" src="assets/images/user.png" alt="User Avatar"/>
+                                    <div>  
+                                        <div class="author__name">Edward Newgate</div>
+                                        <div class="author__role">Founder Circle</div>
+                                    </div>
+                                </figcaption>
+                            </figure>
+                        </div>
+                        <div class="testimonial__controls">
+                            <button class="control prev" aria-label="Previous testimonial">
+                                <img src="assets/icons/arrow-left.png" alt="Left Arrow"/>
+                            </button>
+                            <button class="dots" role="tablist" aria-label="Testimonials">
+                                <img src="assets/icons/slider.png" alt="Right Arrow"/>
+                            </button>
+                            <button class="control next" aria-label="Next testimonial">
+                                <img src="assets/icons/arrow-right.png" alt="Right Arrow"/>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <!-- ===== Articles Section ===== -->
+        
+<!-- ===== Articles / Blog ===== -->
+    <section id="articles" class="section articles">
+      <div class="container">
+        <header class="section-header">
+          <h2 class="section-title">Check out our latest article</h2>
+          <span class="section-underline" aria-hidden="true"></span>
+        </header>
+
+        <div class="grid grid--3cols cards-articles">
+          <article class="card article-card">
+            <img src="assets/images/article-cover-img-1.png" alt="article-1"/>
+            <div class="article-card__body">
+              <h3 class="card__title">Disease detection, check up in the laboratory</h3>
+              <p class="card__text">In this case, the role of the health laboratory is very important to do a disease detection…</p>
+              <a class="article-card__link">
+                Read more
+                <svg class="icon inline ml-8" width="18" height="18" viewBox="0 0 24 24" aria-hidden="true">
+                <path fill="currentColor" d="M13 5l7 7-7 7v-4H4v-6h9V5z"/>
+                </svg>
+              </a>
+            </div>
+          </article>
+        
+          <article class="card article-card">
+            <img src="assets/images/article-cover-img-2.png" alt="article-2"/>
+            <div class="article-card__body">
+              <h3 class="card__title">Herbal medicines that are safe for consumption</h3>
+              <p class="card__text">Herbal medicine is widely used at all ages. Here are the basics you should know…</p>
+              <a class="article-card__link">
+                Read more
+                <svg class="icon inline ml-8" width="18" height="18" viewBox="0 0 24 24" aria-hidden="true">
+                  <path fill="currentColor" d="M13 5l7 7-7 7v-4H4v-6h9V5z"/>
+                </svg>
+              </a>
+            </div>
+          </article>
+          
+          <article class="card article-card">
+            <img src="assets/images/article-cover-img-3.png" alt="Facial skin care imagery"/>
+            <div class="article-card__body">
+              <h3 class="card__title">Natural care for healthy facial skin</h3>
+              <p class="card__text">A healthy lifestyle will affect the condition of your skin. Here are practical tips…</p>
+              <a class="article-card__link">
+                Read more
+                <svg class="icon inline ml-8" width="18" height="18" viewBox="0 0 24 24" aria-hidden="true">
+                  <path fill="currentColor" d="M13 5l7 7-7 7v-4H4v-6h9V5z"/>
+                </svg>
+              </a>
+            </div>
+          </article>
+        </div>
+        <div class="center mt-48">
+          <a> View all</a>
+        </div>
+      </div>
+    </section>
+    </main>
+    <!-- ===== Footer ===== -->
+    
+<footer class="site-footer">
+    <div class="container grid grid--4cols footer__grid">
+      <div class="footer__brand">
+        <img src="assets/logo/footer-logo.png" alt="Trafalgar Logo">
+        <!-- <a class="brand brand--footer" href="#top" aria-label="" class="footer__text"> </a> -->
+        <p>
+            Trafalgar provides progressive, and affordable healthcare, accessible on mobile and online for everyone.
+        </p>
+        <p class="footer__copy">© Trafalgar PTY LTD 2025. All rights reserved</p>
+      </div>
+
+      <div class="footer__col">
+        <h4 class="footer__title">Company</h4>
+        <ul class="footer__links">
+          <li>#About</a></li>
+          <li>#Testimonials</a></li>
+          <li>#Find a doctor</a></li>
+          <li>#Apps</a></li>
+        </ul>
+      </div>
+
+      <div class="footer__col">
+        <h4 class="footer__title">Region</h4>
+        <ul class="footer__links">
+          <li>#Indonesia</a></li>
+          <li>#Singapore</a></li>
+          <li>#Hongkong</a></li>
+          <li>#Canada</a></li>
+        </ul>
+      </div>
+
+      <div class="footer__col">
+        <h4 class="footer__title">Help</h4>
+        <ul class="footer__links">
+          <li>#Help center</a></li>
+          <li>#Contact support</a></li>
+          <li>#Instructions</a></li>
+          <li>#How it works</a></li>
+        </ul>
+      </div>
+    </div>
+  </footer>
+    <script src="script.js"></script>
+</body>
+</html>
